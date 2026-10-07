@@ -74,17 +74,17 @@ The figures use the **Liberation Sans** font, a metric-compatible Arial clone. I
 
 ```bash
 # 1. Statistics, functional classes, IS families, trait inventory
-python scripts/analysis.py data/Q1_pangenome_results.xlsx results/
+python scripts/analysis.py data/pangenome_results.xlsx results/
 
 # 2. Figures 1–5
-python scripts/figures.py results/ figures/ data/Q1_pangenome_results.xlsx
+python scripts/figures.py results/ figures/ data/pangenome_results.xlsx
 ```
 
 Both steps together take less than a minute on a laptop.
 
 ### Input
 
-`data/Q1_pangenome_results.xlsx` must contain these sheets:
+`data/pangenome_results.xlsx` must contain these sheets:
 
 | Sheet | Content |
 |---|---|
@@ -159,7 +159,7 @@ If you use this code or data, please cite:
 @article{sbenthica_pangenome_2026,
   title   = {Insertion-sequence expansion and acquired defence systems distinguish hadal strains
              in the pangenome of the piezophilic bacterium Shewanella benthica},
-  author  = {[First Author] and [Second Author] and [Senior Author]},
+  author  = {Laura E. Peralta-Guzmán, Hansel B. Lopez-Chevalier},
   journal = {bioRxiv},
   year    = {2026},
   doi     = {10.1101/XXXX.XX.XX.XXXXXX}
@@ -177,6 +177,6 @@ Please also cite the tools used: Prokka (Seemann 2014), Panaroo (Tonkin-Hill et 
 
 ## Contact
 
-[Name] — [email] — [Institution]
+Hansel B. Lopez-Chevalier — hlopez@ipl.edu.do — Instituto Especializado de Estudios Superiores Loyola
 
 Issues and pull requests are welcome.
