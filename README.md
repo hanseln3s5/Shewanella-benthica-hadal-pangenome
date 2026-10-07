@@ -2,8 +2,8 @@
 
 Code and data for the preprint:
 
-> **Insertion-sequence expansion and acquired defence systems distinguish hadal strains in the pangenome of the piezophilic bacterium *Shewanella benthica***
-> [First Author], [Second Author], [Senior Author]. *bioRxiv* (2026). doi: [10.1101/XXXX.XX.XX.XXXXXX]
+> **Insertion-sequence expansion and acquired defence systems distinguish hadal strains in the pangenome of the piezophilic bacterium *Shewanella benthica***. 
+> Laura E. Peralta-Guzmán, Hansel B. Lopez-Chevalier.      *bioRxiv* (2026). doi: [10.1101/XXXX.XX.XX.XXXXXX]
 
 This repository contains the analysis scripts used to reanalyse the Panaroo/eggNOG-mapper pangenome of four *S. benthica* strains. The scripts compute the statistics, produce Figures 1–5 and generate the result tables behind Supplementary Tables S1–S10.
 
@@ -15,8 +15,8 @@ This repository contains the analysis scripts used to reanalyse the Panaroo/eggN
 
 | Strain | Habitat class | Isolation source | Depth (m) | Gene families | Strain-specific |
 |---|---|---|---|---|---|
-| BOEU19-1 | Non-hadal* | Deep-sea sediment* | * | 3,780 | 274 |
-| DSM 8812ᵀ (= ATCC 43992ᵀ) | Non-hadal (abyssal) | Gut of the holothurian *Psychropotes longicauda* | * | 3,296 | 390 |
+| BOEU19-1 | Non-hadal | Deep-sea sediment | unknown | 3,780 | 274 |
+| DSM 8812ᵀ (= ATCC 43992ᵀ) | Non-hadal (abyssal) | Gut of the holothurian *Psychropotes longicauda* | 4,560 | 3,296 | 390 |
 | DB21MT-2 | Hadal | Sediment, Challenger Deep, Mariana Trench | 10,898 | 3,798 | 680 |
 | KT99 | Hadal | Amphipods, Kermadec Trench | 9,856 | 3,670 | 514 |
 
