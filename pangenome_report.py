@@ -2,7 +2,7 @@
 
 Merges the Panaroo presence/absence table with the eggNOG-mapper annotation of
 one representative protein per family (see extract_representatives.py) and
-writes Q1_pangenome_results.xlsx, the input of analysis.py and figures.py.
+writes pangenome_results.xlsx, the input of analysis.py and figures.py.
 
 Usage:
     python3 pangenome_report.py <gene_presence_absence.csv> <eggnog.emapper.annotations> <out.xlsx>
